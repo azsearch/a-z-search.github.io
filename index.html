@@ -1,28 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>My Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <title>YourXアプリ</title>
 </head>
 <body>
-    <header>
-        <h1>My Blog</h1>
-    </header>
-    
-    <main id="content">
-        <!-- Blog posts will go here -->
-    </main>
+    <div class="container">
+        <header>
+            <div class="profile">
+                <img src="profile-image.jpg" alt="プロフィール画像">
+                <span>ユーザー名</span>
+            </div>
+            <nav>
+                <ul>
+                    <li>ホーム</li>
+                    <li>検索</li>
+                    <li>通知</li>
+                    <li>メッセージ</li>
+                    <li>プロフィール</li>
+                </ul>
+            </nav>
+        </header>
 
-    <aside id="advertising">
-        <!-- Advertisements will go here -->
-    </aside>
+        <main>
+            <section class="home">
+                <h2>ホーム</h2>
+                <!-- おすすめ、レター、画像、動画、ショートの表示 -->
+            </section>
 
-    <footer>
-        <p>&copy; 2023 My Blog</p>
-    </footer>
+            <section class="search">
+                <h2>検索</h2>
+                <!-- 検索結果の表示 -->
+            </section>
 
-    <script src="script.js"></script>
+            <section class="notifications">
+                <h2>通知</h2>
+                <!-- 通知の表示 -->
+            </section>
+
+            <section class="messages">
+                <h2>メッセージ</h2>
+                <!-- メッセージの表示 -->
+            </section>
+
+            <section class="profile">
+                <h2>プロフィール</h2>
+                <!-- プロフィールの表示 -->
+            </section>
+        </main>
+    </div>
 </body>
 </html>
